@@ -15,7 +15,7 @@ int main(void) {
     balance = balance + year * balance * rate / 100.0;
 
     // Print result
-    printf("Final balance %lf", balance);
+    printf("%.2lf\n", balance);
 
     return 0;
 }
