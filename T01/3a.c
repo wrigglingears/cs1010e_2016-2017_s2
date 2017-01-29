@@ -8,10 +8,12 @@ int main(void) {
 
     // Calculate first year
     balance = balance + balance * rate / 100.0;
+    printf("%.2lf\n", balanc);
     // Calculate second year
     balance = balance + balance * rate / 100.0;
+    printf("%.2lf\n", balance)
     // Calculate third year
-    balance = balance + balance * rate / 100.0;
+    /* balance = balance + balance * rate / 100.0; */
 
     // Print result
     printf("%.2lf\n", balance);

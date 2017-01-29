@@ -1,6 +1,6 @@
 CC=gcc
 CFLAGS=-lm -Wall
-TUT=T02
+TUT=T03
 QNS=3a 3b
 
 all: $(QNS)

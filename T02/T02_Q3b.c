@@ -12,7 +12,7 @@ int main(void) {
     year = month / 12;
 
     // Compute balance
-    balance = balance * pow(1.0 + rate / 100.0, year);
+    balance = balance * pow(1 + rate / 100, year);
 
     // Print balance
     printf("Balance: %.2lf", balance);
